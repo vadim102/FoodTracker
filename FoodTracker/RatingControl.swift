@@ -19,7 +19,7 @@ class RatingControl: UIView {
     }
     var ratingButtons = [UIButton]()
     var spacing = 5
-    var stars = 5
+    var stars = 6
     
     // MARK: Initialization
     required init?(coder aDecoder: NSCoder) {
