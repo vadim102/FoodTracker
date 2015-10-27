@@ -1,6 +1,14 @@
+//
+//  MealViewController.swift
+//  FoodTracker
+//
+//  Created by Вадим on 26.10.15.
+//  Copyright © 2015 __KATERINICH__. All rights reserved.
+//
+
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     // MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
