@@ -24,6 +24,7 @@ class RatingControl: UIView {
     // MARK: Initialization
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.backgroundColor = UIColor.clearColor()
         
         let emptyStarImage = UIImage(named: "emptyStar")
         let filledStarImage = UIImage(named: "filledStar")
